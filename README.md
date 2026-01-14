@@ -189,7 +189,7 @@ This screenshot shows the Gmail inbox **before and after execution**, highlighti
 ### 2️. Google Sheets Data Logging
 
 **File:** `proof/google_sheet.png`
-![Google Sheets Logging](proof/google_sheet.png)
+![Google Sheets Logging](proof/google_spread_sheet.png)
 
 This screenshot confirms that email data was correctly appended to the Google Sheet as new rows.
 
