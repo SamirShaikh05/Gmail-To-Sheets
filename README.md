@@ -174,7 +174,7 @@ All evidence is provided in the `/proof` directory and validates end-to-end func
 ### 1️. Gmail Inbox Processing
 
 **File:** `proof/gmail_inbox.png`
-![Gmail Inbox Processing](proof/gmail_inbox.png)
+![Gmail Inbox Processing](proof/gmail_inbox1.png)
 
 This screenshot shows the Gmail inbox **before and after execution**, highlighting unread emails that were processed by the automation.
 
@@ -188,7 +188,7 @@ This screenshot shows the Gmail inbox **before and after execution**, highlighti
 
 ### 2️. Google Sheets Data Logging
 
-**File:** `proof/google_sheet.png`
+**File:** `proof/google_spread_sheet.png`
 ![Google Sheets Logging](proof/google_spread_sheet.png)
 
 This screenshot confirms that email data was correctly appended to the Google Sheet as new rows.
