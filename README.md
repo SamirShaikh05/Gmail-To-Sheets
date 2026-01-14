@@ -29,13 +29,16 @@ For every unread email in the Gmail Inbox, the script records the following fiel
 ---
 
 ##  High-Level Architecture
-```
-                        Gmail Inbox
-                             ↓
-                Python Automation (OAuth 2.0)
-                             ↓
-                  Google Sheets (Append Rows)
-```
+
+flowchart TD
+    A[Gmail Inbox<br/>(Unread Emails)]
+    B[Python Automation Script<br/>OAuth 2.0 Installed App Flow<br/>Duplicate Prevention]
+    C[Google Sheets<br/>(Append New Rows)]
+
+    A -->|Gmail API| B
+    B -->|Google Sheets API| C
+
+
 ---
 
 ##  Project Structure
