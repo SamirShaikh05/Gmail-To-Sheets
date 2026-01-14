@@ -19,12 +19,16 @@ The system uses **OAuth 2.0 authentication** (Installed App flow) and ensures th
 
 For every unread email in the Gmail Inbox, the script records the following fields in Google Sheets:
 
-| Column | Description |
-|------|-------------|
-| From | Sender email address |
-| Subject | Email subject |
-| Date | Date & time received |
-| Content | Plain-text email body |
+<p align="center">
+
+| Column  | Description               |
+|--------|---------------------------|
+| From   | Sender email address      |
+| Subject| Email subject             |
+| Date   | Date & time received      |
+| Content| Plain-text email body     |
+
+</p>
 
 ---
 
