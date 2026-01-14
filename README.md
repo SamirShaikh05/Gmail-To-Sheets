@@ -68,6 +68,7 @@ gmail-to-sheets/
 ```
 
 ---
+## Setup Instructions
 
 ### 1. Create Virtual Environment
 ```bash
