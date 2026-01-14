@@ -30,14 +30,13 @@ For every unread email in the Gmail Inbox, the script records the following fiel
 
 ##  High-Level Architecture
 
-flowchart TD
-    A[Gmail Inbox<br/>(Unread Emails)]
-    B[Python Automation Script<br/>OAuth 2.0 Installed App Flow<br/>Duplicate Prevention]
-    C[Google Sheets<br/>(Append New Rows)]
+<p align="center">
+  <img src="proof/architecture.png" alt="High-Level Architecture Diagram" width="250"/>
+</p>
 
-    A -->|Gmail API| B
-    B -->|Google Sheets API| C
-
+This diagram illustrates the end-to-end flow of the system, showing how unread emails
+are fetched from Gmail, processed by the Python automation layer, and appended
+to Google Sheets using Google APIs.
 
 ---
 
