@@ -31,7 +31,7 @@ For every unread email in the Gmail Inbox, the script records the following fiel
 ##  High-Level Architecture
 
 <p align="center">
-  <img src="proof/architecture.png" alt="High-Level Architecture Diagram" width="250"/>
+  <img src="proof/high_level_architecture.png" alt="High-Level Architecture Diagram" width="250"/>
 </p>
 
 This diagram illustrates the end-to-end flow of the system, showing how unread emails
